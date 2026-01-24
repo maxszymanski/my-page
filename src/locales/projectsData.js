@@ -1,39 +1,11 @@
 export const mainProjects = [
     {
-        name: 'Off Grid',
-        image: '/images/grid.webp',
-        stack: 'Next.js TypeScript Tailwind Zustand Zod AOS',
-        info: 'projects.aboutGrid',
-        liveLink: 'https://www.offgrid.cash',
-        codeLink: 'https://github.com/maxszymanski',
-    },
-
-    {
-        name: 'Chain',
-        image: '/images/chain.webp',
-        stack: 'Next.js TypeScript Tailwind GSAP Framer-motion Lottie AOS Zod ',
-        info: 'projects.aboutChain',
-        liveLink: 'https://chain-seven.vercel.app/',
-        codeLink: 'https://github.com/maxszymanski',
-    },
-    {
-        name: 'Sentient',
-        image: '/images/sentient.webp',
-        stack: 'Next.js TypeScript Tailwind Rive Framer-motion FullPage.js AOS',
-        info: 'projects.aboutSentient',
-        liveLink: 'https://sentient-ten.vercel.app/',
-        codeLink: 'https://github.com/maxszymanski/sentient',
-    },
-]
-export const allProjects = [
-    ...mainProjects,
-    {
-        name: 'Spend',
-        image: '/images/spend.webp',
-        stack: 'Next.js TypeScript Tailwind Zustand Zod AOS',
-        info: 'projects.aboutSpend',
-        liveLink: 'https://spend-frontend-pearl.vercel.app/',
-        codeLink: 'https://github.com/maxszymanski/',
+        name: 'projects.paintedSmile',
+        image: '/images/painted.webp',
+        stack: 'Astro JavaScript PHP Tailwind',
+        info: 'projects.aboutPainted',
+        liveLink: 'https://malowanyusmiech.pl/',
+        codeLink: 'https://github.com/maxszymanski/painted-smile',
     },
     {
         name: 'Academigo',
@@ -44,14 +16,6 @@ export const allProjects = [
         codeLink: 'https://github.com/maxszymanski/academigo',
     },
     {
-        name: 'projects.paintedSmile',
-        image: '/images/painted.webp',
-        stack: 'Astro JavaScript PHP Tailwind',
-        info: 'projects.aboutPainted',
-        liveLink: 'https://malowanyusmiech.pl/',
-        codeLink: 'https://github.com/maxszymanski/painted-smile',
-    },
-    {
         name: 'Paplanek',
         image: '/images/paplanek.webp',
         stack: 'React TypeScript Supabase Tailwind Tanstack-Query',
@@ -59,6 +23,10 @@ export const allProjects = [
         liveLink: 'https://paplanek.netlify.app/',
         codeLink: 'https://github.com/maxszymanski/chat',
     },
+]
+export const allProjects = [
+    ...mainProjects,
+
     {
         name: 'Matbud',
         image: '/images/matbud.webp',

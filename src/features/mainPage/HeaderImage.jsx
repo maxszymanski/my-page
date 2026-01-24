@@ -114,9 +114,9 @@ function HeaderImage() {
                     <TitleLink
                         target="_blank"
                         rel="noopener"
-                        to="https://chain-seven.vercel.app/"
+                        to="https://academigo.pl/"
                     >
-                        Chain
+                        Academigo
                     </TitleLink>{' '}
                 </TitleInfo>
             </WorkingBox>
